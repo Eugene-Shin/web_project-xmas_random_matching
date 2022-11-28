@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>로그인</title>
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <form class="login" action="login.jsp" method="POST">
+                <h2>LOGIN</h2>
+                <div class="login_id">
+                    <h4 class="font-white">ID</h4>
+                    <input type="text" id="id" name="id" placeholder="login id">
+                </div>
+
+                <div class="login_pw">
+                    <h4 class="font-white">Password</h4>
+                    <input type="password" id="pw" name="pw" placeholder="Password">
+                </div>
+
+                <div class="login_etc">
+                    <div class="checkbox" style="cursor:default">
+                        <input type="checkbox" id="checkid" name="checkid"> 
+                        <font color="whitesmoke">Remember ID?</font>
+                    </div>
+                    <div>
+                        <a href="../html/register.html">Create account</a>
+                    </div>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" id="log-in" value="log-in">
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="../js/login.js"></script>
+    </body>
+</html>

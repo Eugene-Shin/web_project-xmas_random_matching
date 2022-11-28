@@ -1,0 +1,100 @@
+* { /*전체 폰트*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  a { /*하이퍼링크*/
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .wrap { /*배경화면*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    overflow: auto;
+  }
+  
+  .login { /*중앙 창 적용 스타일*/
+    width: 30%;
+    height: 600px;
+    min-width: 400px;
+    background: rgba(132,151,158, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 { /*h2태그 스타일*/
+    color: whitesmoke;
+    font-size: 2em;
+    cursor: default;
+  }
+  
+  .login_id { /*login_id 적용 스타일*/
+    margin-top: 20px;
+    width: 80%;
+  }
+  .login_id input { /*login_id 적용된 곳의 input 스타일*/
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid rgba(lightgray, 0.8);
+    outline: none;
+  }
+  
+  .login_pw { /*login_pw 적용 스타일*/
+    margin-top: 20px;
+    width: 80%;
+  }
+  .login_pw input { /*login_pw 적용된 곳의 input 스타일*/
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border: 1px solid rgba(lightgray, 0.8);
+    outline: none;
+  }
+  
+  .login_etc { /*로그인 유지 체크/회원가입 하이퍼링크*/
+    padding: 10px;
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .submit { /*submit 적용 스타일*/
+    margin-top: 50px;
+    width: 80%;
+  }
+  .submit input { /*submit 적용된 곳의 input 스타일*/
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, rgb(132, 151, 158), rgb(38, 55, 48));
+    color: whitesmoke;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .font-white{ /*글씨 스타일*/
+    color:whitesmoke;
+    cursor:default;
+  }
